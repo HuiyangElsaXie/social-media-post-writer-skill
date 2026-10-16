@@ -1,0 +1,36 @@
+{
+  "repository": "social-media-post-writer-skill",
+  "baseline_commit": "631384c77cc80ccd999bac481fd6a23a1d02cf6f",
+  "started_at_utc": "2026-10-16T21:38:09.423908+00:00",
+  "finished_at_utc": "2026-10-16T21:38:09.508911+00:00",
+  "command": "node scripts/validate.mjs --json",
+  "exit_code": 0,
+  "node_version": "v24.19.0",
+  "observed_result": {
+    "status": "PASS",
+    "fileCount": 16,
+    "skillCount": 1,
+    "generalPlatformCount": 8,
+    "checkedLinks": 33,
+    "checkedAnchors": 8,
+    "licenseCopiesChecked": 2,
+    "issues": []
+  },
+  "stdout_sha256": "2548ef8e525cdb2bae7c727714403a21f278cf7c0d225ed9fe0e099acfddf200",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "manifest_note": "The raw validator manifest belongs to its execution snapshot. It includes the previous contents of this record; this report is not a self-hash assertion. Complete raw outputs are retained locally.",
+  "initial_run": {
+    "repository": "social-media-post-writer-skill",
+    "baseline_commit": "631384c77cc80ccd999bac481fd6a23a1d02cf6f",
+    "started_at_utc": "2026-10-16T21:27:10.945886+00:00",
+    "finished_at_utc": "2026-10-16T21:27:11.034051+00:00",
+    "command": "node scripts/validate.mjs --json",
+    "runtime": "Node v24.19.0",
+    "exit_code": 0,
+    "test_count": null,
+    "stdout_sha256": "a34d6d0075a2a453cc5bacad6acebed980c8ce4b53ea99638ef2f98c3115e3c0",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scope": "Actual local execution; not agent behavior or live business/platform verification."
+  },
+  "scope": "Actual static/offline validator; no model or platform verification."
+}

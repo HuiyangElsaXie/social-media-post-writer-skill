@@ -5,6 +5,8 @@ description: "Create and adapt marketing copy for English Instagram, TikTok, X, 
 
 # Platform-aware Social Media Writer
 
+Optional format reference: [the existing eight-platform fictional drafts](../../examples/general-eight-platforms.md), including publisher identities and media-plan status. Read only relevant examples when useful. Keep the full repository and provide this nested entrypoint explicitly: ../../examples and root provenance/rights files are not included when only the skill child folder is copied.
+
 Use the user's language for discussion. Draft in English for the five English-reference platforms and Simplified Chinese for the three Chinese-reference platforms unless the user specifies another publication language. This changes language, not platform coverage: support exactly the eight platforms below. The current AI agent executes this guide; tools and factual access are host-dependent.
 
 ## A short writing contract

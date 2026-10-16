@@ -10,7 +10,7 @@ A personal-use writing skill for an AI agent, with ongoing updates. Confirm who 
 
 ## General entry / 通用入口
 
-Use [social-media-post-writer](skills/social-media-post-writer/SKILL.md). Copy that entire folder into the agent's supported skill directory or provide the entrypoint explicitly. Only the following eight platforms are in this general skill:
+Use [social-media-post-writer](skills/social-media-post-writer/SKILL.md). Keep the full repository and provide that entrypoint explicitly. Copying only the nested skill folder omits its root example/provenance links; host-specific installation must preserve those resources. Only the following eight platforms are in this general skill:
 
 | Language / 语言 | Platforms and typical deliverables / 平台及典型交付 |
 |---|---|
