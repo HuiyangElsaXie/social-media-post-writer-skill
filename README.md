@@ -2,9 +2,9 @@
 
 **Platform-aware marketing writing / 按平台适配的营销写作**
 
-A lightweight skill for an AI agent: confirm who is speaking, use supported facts, then adapt the content to the requested platform and format. Useful for demonstrating a marketing workflow and preparing occasional client work; no account operation is included.
+A personal-use writing skill for an AI agent, with ongoing updates. Confirm who is speaking, use supported facts, then adapt the content to the requested platform and format. No account operation is included.
 
-搭配 AI agent 使用：先确认发布者身份，再以可披露事实写作，并适配指定平台及体裁。用于展示营销工作流、品牌/零售渠道内容和个人专家推荐；不默认写成消费者 UGC，也不捏造使用经历。
+搭配 AI agent 使用：先确认发布者身份，再以可披露事实写作，并适配指定平台及体裁。个人自用并持续更新，支持品牌/零售渠道内容和个人专家推荐；不默认写成消费者 UGC，也不捏造使用经历。
 
 ## General entry / 通用入口
 
@@ -51,10 +51,10 @@ The core workflow can use supplied evidence without paid APIs. External research
 
 See [worked examples](examples/general-eight-platforms.md), [review cases](VALIDATION.md), [provenance](PROVENANCE.md), [third-party notices](THIRD_PARTY_NOTICES.md) and [rights](RIGHTS.md). Run `node scripts/validate.mjs` for the available offline checks; it is not a model-behavior or live-platform certification. No new root license is assigned.
 
-## Portfolio and rights / 作品展示与权利
+## Personal use and updates / 个人自用与持续更新
 
-Published as a demonstration of a reusable writing workflow and a reference for the use cases described above. It does not certify generated output, platform compliance, traffic or business results. The owner authorized this sanitized public snapshot. No new root open-source license is assigned; see [rights](RIGHTS.md) and [provenance](PROVENANCE.md). Identified upstream licenses retain their own permissions, including commercial use where granted.
+Maintained for personal use and updated as the workflow evolves. No new root open-source license is assigned; see [rights](RIGHTS.md) and [provenance](PROVENANCE.md). Identified third-party portions retain their own license permissions, including commercial use where granted. Personal-use positioning does not impose a non-commercial restriction on those portions.
 
-此公开版展示作者的通用写作工作流，可按上述场景了解和评估。它不是生成质量、平台合规或业务效果的认证。新增与适配部分未指定根开源许可证；实际采用的第三方部分保留原许可，不用“非商用”覆盖其既有权利。
+个人自用，会持续更新。新增与适配部分未指定根开源许可证，详见权利与来源说明。实际采用的第三方部分继续适用其原许可；个人自用的定位不缩减原许可已授予的商用等权利。
 
 Canonical repository: [social-media-post-writer-skill](https://github.com/HuiyangElsaXie/social-media-post-writer-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
