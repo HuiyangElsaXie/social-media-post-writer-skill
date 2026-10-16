@@ -1,0 +1,34 @@
+{
+  "snapshotDate": "2026-10-16",
+  "sources": [
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "sourceFile": "skills/social/SKILL.md",
+      "sourceBlob": "602451c83630228a8de3c643b0a271f7ce6e130e",
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "licenseBlob": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+      "licenseCopy": "third-party/marketingskills/LICENSE.txt",
+      "adaptations": [
+        "skills/social-media-post-writer/SKILL.md",
+        "skills/social-media-post-writer/references/platforms-en.md"
+      ],
+      "noAdditionalNoticeFound": true
+    },
+    {
+      "repository": "blader/humanizer",
+      "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+      "sourceFile": "SKILL.md",
+      "sourceBlob": "19fc634208e8cc6ae55d4ff287152583216fd244",
+      "license": "MIT",
+      "licenseFile": "LICENSE",
+      "licenseBlob": "625297fb778f32eb39d3a5b97e3e3b611b7304d6",
+      "licenseCopy": "third-party/humanizer/LICENSE.txt",
+      "adaptations": [
+        "skills/social-media-post-writer/references/editorial-checks.md"
+      ],
+      "noAdditionalNoticeFound": true
+    }
+  ]
+}
