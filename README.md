@@ -35,6 +35,13 @@ Reuse relevant approved accessible background first, and briefly state what was 
 
 > 虚构零售渠道销售一款收纳盘。请用零售方身份，为小桌面用户写小红书。已给事实只有两个分区、隔板可拆；不冒充品牌研发方或消费者，不编材质、价格、测评与用户反馈。
 
+## Writing flow and decisions / 写作流程与分工
+
+1. **You / 你** confirm the intake above, especially publisher identity and what may be disclosed. / 确认上述输入，尤其发布者身份和可披露范围。
+2. **AI** builds a short brief/fact table and asks material gaps; **you** resolve identity or factual conflicts when needed. Missing identity yields a question and skeleton. / AI 整理简报与事实表，必要时由你澄清身份或事实冲突；缺身份只交问题和骨架。
+3. **AI** adapts supported claims and voice to the requested platforms, distinguishing copy/media plans from actual assets. / 按指定平台适配有据主张与语气，区分文案／媒体规划和实际素材。
+4. **AI** checks identity, facts, format and asset status, then returns drafts and separate notes. **You** review truth, disclosure and voice before any separately handled publication. / AI 检查后交付草稿及正文外说明；由你判断事实、披露与语气，发布另行处理。
+
 ## Outputs and tool dependencies / 交付与工具依赖
 
 Return editable copy in the requested format, brief source/claim notes, publisher/disclosure wording where relevant, and any unresolved item. For video, a script/shot/subtitle plan is not a produced video; a carousel layout or image prompt is not an image attachment.
