@@ -26,7 +26,7 @@ Keep the content brief short: publisher/relationship, audience, platform/languag
 - Publisher identity missing: one question, fact table and skeleton only. No invented consumer, credentials, sponsorship status or first-person experience.
 - Every product number, specification, fit/suitability judgment and benefit in copy resolves to its own supporting source; category defaults are not facts.
 - Conflicting values remain out of asserted copy until adjudicated; preserve both versions in notes rather than silently deleting one.
-- A pending check is not evidence of verification underway. Remove invented checking/updating/follow-up processes from the post; keep unresolved-check notes outside publishable copy.
+- Scan actual titles, captions, speech, subtitles and CTAs: no added "still to be confirmed / 确认后补充 / More details to come" status or follow-up lines. Keep these internal. A truthful public statement expressly requested by the user and supported by evidence is the exception. A missing fact does not authorize that statement. Use an editing placeholder rather than a public promise when needed.
 - Check every brand/retail first-person sentence for a fake purchase, consumer reaction or long-term-use story.
 - Rules/limits/timing never checked stay NOT CHECKED. Missing Facebook group/Reddit rules require COMMUNITY RULES NOT CHECKED — DRAFT ONLY, without a ready-to-post claim.
 - Match facts across caption, spoken line, subtitle and visual plan. No fabricated product shot, visible screenshot or completed media output.

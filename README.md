@@ -62,3 +62,5 @@ Maintained for personal use and updated as the workflow evolves. No new root ope
 Canonical repository: [social-media-post-writer-skill](https://github.com/HuiyangElsaXie/social-media-post-writer-skill). Related workflows: [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
 
 Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。
+
+[2026-10-17 minimal closeout: new first-answer case and independent audit](cases/round4-closeout-2026-10-17/README.md). Scope and limitations are recorded with the case.

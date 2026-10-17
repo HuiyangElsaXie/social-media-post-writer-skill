@@ -1,0 +1,32 @@
+{
+  "record_type": "Reconstructed reviewer activity record, not native telemetry",
+  "reviewer": "r4_review",
+  "tools": [
+    "functions.exec -> tools.exec_command / PowerShell",
+    "designated python.exe -X utf8, standard-library pathlib/json/hashlib"
+  ],
+  "reads": [
+    "runs/social-media-post-writer-skill/brief.md",
+    "runs/social-media-post-writer-skill/case.json",
+    "runs/social-media-post-writer-skill/raw-response.md",
+    "runs/social-media-post-writer-skill/FIRST-ANSWER.json",
+    "runs/social-media-post-writer-skill/commands.json",
+    "runs/social-media-post-writer-skill/tool-availability.md",
+    "repos/social-media-post-writer-skill/skills/social-media-post-writer/SKILL.md",
+    "repos/social-media-post-writer-skill/skills/social-media-post-writer/references/editorial-checks.md",
+    "repos/social-media-post-writer-skill/skills/social-media-post-writer/references/platforms-en.md"
+  ],
+  "operations": [
+    "Read permitted submission files; inspect entire answer against brief and current entry/references",
+    "Read relevant rule files (rednote entry reread separately after batched output truncation)",
+    "Compute actual byte hashes for brief, frozen response and loaded rules; compare recorded hashes",
+    "Write only designated reviewer output files"
+  ],
+  "directory_metadata_note": "Initial directory names at runs/, repos/ and repository roots were listed; no case/example contents, provenance files, reports, scripts, history or private files were read.",
+  "writes": [
+    "reviews/social-media-post-writer-skill/audit.md",
+    "reviews/social-media-post-writer-skill/audit.json",
+    "reviews/social-media-post-writer-skill/commands.json"
+  ],
+  "external_tools_used": []
+}

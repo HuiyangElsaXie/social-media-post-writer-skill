@@ -1,0 +1,33 @@
+{
+  "record_type": "Reconstructed activity record, not native telemetry",
+  "tools": [
+    {
+      "tool": "functions.exec / exec_command",
+      "outcome": "success",
+      "operations": [
+        "PowerShell Get-Content of entry SKILL.md, brief.md, case.json; console encoding damaged some Unicode",
+        "Required Python -X utf8 reread entry SKILL.md and editorial-checks.md/platforms-en.md via json.dumps ensure_ascii=True; text recovered",
+        "Python SHA256 of three loaded rule files; save raw-response.md, commands.json, tool-availability.md"
+      ]
+    }
+  ],
+  "reads": [
+    "{REPO}/skills/social-media-post-writer/SKILL.md",
+    "{REPO}/skills/social-media-post-writer/references/editorial-checks.md",
+    "{REPO}/skills/social-media-post-writer/references/platforms-en.md",
+    "{CASE}/brief.md",
+    "{CASE}/case.json"
+  ],
+  "scope_note": "Full English platform reference was output; only TikTok guidance applied. No examples, cases, other runs, reviews, private files or provenance files read.",
+  "writes": [
+    "{CASE}/raw-response.md",
+    "{CASE}/commands.json",
+    "{CASE}/tool-availability.md"
+  ],
+  "review": "One ordinary pre-delivery editorial check completed before saving the first complete deliverable. No post-submission review or repair.",
+  "loaded_rule_sha256": {
+    "SKILL.md": "ce11bbe103f050511b96ef4b9df7e072e39ea3179cac101dd041a762ac12bd2b",
+    "references/editorial-checks.md": "24dff3aaeaf2ddd0163cfab80c2142a0dcc0b91db695d6a7ec1e13c51baf8615",
+    "references/platforms-en.md": "07e0c91c3e3c120f33e7e7e84469c75a9ab2a7b927a70f4ded1a55dda0ed8e7f"
+  }
+}
