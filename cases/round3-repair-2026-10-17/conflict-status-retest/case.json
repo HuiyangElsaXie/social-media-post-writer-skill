@@ -1,0 +1,17 @@
+{
+  "repo": "social-media-post-writer-skill",
+  "scenario": "conflict-status-retest",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "ddf1dc766e983e34e113217157d37d56831a761b",
+  "skill_entry": "skills/social-media-post-writer/SKILL.md",
+  "loaded_rule_sha256": {
+    "skills/social-media-post-writer/SKILL.md": "4896ac67a0a18350be9290f70a3a7b7d02d5b659f4aadf65bc8f5d7dd9f43969",
+    "skills/social-media-post-writer/references/editorial-checks.md": "fedc3e60d20191468af8fbcc788759f6a3495e6c3fbdb8c998ab712da16ea3a8",
+    "skills/social-media-post-writer/references/platforms-en.md": "07e0c91c3e3c120f33e7e7e84469c75a9ab2a7b927a70f4ded1a55dda0ed8e7f",
+    "skills/social-media-post-writer/references/platforms-zh.md": "63d905cfb7bb010d78b885f41f72550212f2bc67000661df74aa71102b6f1ae2"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief",
+  "retest_of": "retail-conflict-no-tools",
+  "protocol": "Fresh independent first submitted deliverable; ordinary checks expressly required by the skill are permitted before submission; no post-submission self-review/repair. Prior answer and reviewer conclusions withheld."
+}

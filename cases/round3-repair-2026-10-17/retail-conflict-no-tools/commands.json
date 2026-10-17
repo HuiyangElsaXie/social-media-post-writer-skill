@@ -1,0 +1,37 @@
+{
+  "record_type": "retrospective reconstruction of actual calls, plus current write-call events",
+  "events": [
+    {
+      "call": 1,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python UTF-8 reads",
+      "paths": [
+        "{REPO}/skills/social-media-post-writer/SKILL.md",
+        "{CASE}/brief.md",
+        "{CASE}/case.json"
+      ],
+      "outcome": "exit 0; contents displayed as ensure_ascii JSON"
+    },
+    {
+      "call": 2,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python UTF-8 reads",
+      "paths": [
+        "{REPO}/skills/social-media-post-writer/references/editorial-checks.md",
+        "{REPO}/skills/social-media-post-writer/references/platforms-en.md"
+      ],
+      "outcome": "exit 0; editorial checks and Facebook/Reddit sections displayed as ensure_ascii JSON"
+    },
+    {
+      "call": 3,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python writes raw-response.md first, then hashes loaded files and writes tool-availability.md and commands.json",
+      "paths_written": [
+        "{CASE}/raw-response.md",
+        "{CASE}/tool-availability.md",
+        "{CASE}/commands.json"
+      ],
+      "outcome": "raw-response and tool-availability writes completed; commands.json write attempted as final file operation in this call; completion evidenced by tool exit status"
+    }
+  ]
+}

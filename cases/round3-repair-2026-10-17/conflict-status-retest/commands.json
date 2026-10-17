@@ -1,0 +1,23 @@
+{
+  "record_type": "Reconstruction from actual tool calls and outcomes; not an automatically captured shell transcript",
+  "events": [
+    {
+      "order": 1,
+      "tool": "exec_command",
+      "command": "PowerShell Get-Content of permitted SKILL.md, brief.md, case.json",
+      "outcome": "exit 0; read succeeded, some Unicode display damaged"
+    },
+    {
+      "order": 2,
+      "tool": "exec_command",
+      "command": "Supplied python.exe -X utf8 -c; read editorial-checks.md and platforms-en.md; print JSON ensure_ascii=True",
+      "outcome": "exit 0; references read successfully"
+    },
+    {
+      "order": 3,
+      "tool": "exec_command",
+      "command": "Supplied python.exe -X utf8 via PowerShell here-string; prepare response; ordinary pre-delivery review and conflict/status assertions; save first complete raw-response.md unchanged; hash three loaded rule files; save tool-availability.md and commands.json",
+      "outcome": "All pre-delivery assertions passed; three requested artifacts saved. No second post-submission review or repair."
+    }
+  ]
+}

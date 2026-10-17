@@ -1,0 +1,55 @@
+{
+  "reviewer": "r3_review_retests",
+  "model": "gpt-6.1-sol",
+  "repo": "social-media-post-writer-skill",
+  "scenario": "conflict-status-retest",
+  "overall": "PASS",
+  "format": "PASS",
+  "factual_identity": "PASS",
+  "editorial": "PASS",
+  "input_sha256": {
+    "brief.md": "c46ec9c432d81bd89d22c351b00a86f8696e653102b20d7f310535c4ad5624c7",
+    "case.json": "f0739b554a079f48f59d0fb2719bf6b3e5ac24e47b27f4a1417209a331c7dc9a"
+  },
+  "raw_sha256": "cd713ef9aee41dd08b68e44fb37ba3029948524e2a53c27cbadf7c1aa60deaa2",
+  "first_answer_hash_matches": true,
+  "current_rule_hashes_match_case": {
+    "skills/social-media-post-writer/SKILL.md": true,
+    "skills/social-media-post-writer/references/editorial-checks.md": true,
+    "skills/social-media-post-writer/references/platforms-en.md": true,
+    "skills/social-media-post-writer/references/platforms-zh.md": true
+  },
+  "findings": [
+    {
+      "source": "brief.md A/B; SKILL.md pre-draft gates",
+      "status": "PASS",
+      "evidence": "A 1.2 L / USD 18 and B 0.8 L / USD 23 remain separately visible as conflicts in the fact table, neither in asserted post copy. Neither is made newer or authoritative. Owner adjudication is requested."
+    },
+    {
+      "source": "brief.md shared fact and publisher; raw-response.md Facebook/Reddit",
+      "status": "PASS",
+      "evidence": "Only zipper is asserted as a product attribute. Both posts disclose retail seller status. No manufactured product, consumer use, sponsorship denial, test, stock, fit or performance story appears."
+    },
+    {
+      "source": "platforms-en.md Facebook/Reddit; raw-response.md owner decisions",
+      "status": "PASS",
+      "evidence": "Unselected communities are not invented. Community rules remain NOT CHECKED and DRAFT ONLY outside post copy. Reddit has title/body and useful comparison guidance. Owner must select community and post type; no moderator permission or readiness is invented."
+    },
+    {
+      "source": "brief.md timing request; editorial-checks.md",
+      "status": "PASS",
+      "evidence": "No clock time or soft evening-reach suggestion is invented. Proposed rule-window check and later experiment are conditional next steps, not claims of activity already underway. Unresolved specifications stay in notes. Separate format/facts/editorial checks are present."
+    }
+  ],
+  "candidate_byte_checks": {
+    "status": "NOT APPLICABLE",
+    "reason": "No saved candidate file or candidate-byte hash claimed."
+  },
+  "limits": [
+    "Review is limited to this frozen first submission and permitted supplied sources; no external truth, rule compliance, market effect, approval or publication was verified.",
+    "Execution logs are explicitly reconstructed records, not independently captured shell transcripts. They support the reported local sequence but cannot prove unrecorded activity or internal thought order.",
+    "PASS means the requested bounded draft is compliant with this case evidence, not ready for unrestricted publication. Declared pending source/owner/community/site decisions remain pending.",
+    "Initial PowerShell display damage was resolved by UTF-8 Python/ASCII-escaped reads; frozen response UTF-8 bytes contain no U+FFFD replacement character."
+  ],
+  "material_defects": []
+}

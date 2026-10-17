@@ -1,0 +1,66 @@
+{
+  "configured_model": "gpt-6.1-sol",
+  "executor": "/root/r3_social_brand",
+  "reviewer": "/root/r3_review_social",
+  "input_authored_by": "root, separate from executor",
+  "first_answer_sha256": "5efdc0d654a40f1a0411479620039f37c27313ff1e5c83604b11fc8333e5cce7",
+  "overall_this_case_only": "PASS",
+  "path_redaction_only": true,
+  "originals_retained_locally": true,
+  "files": [
+    {
+      "path": "brief.md",
+      "original_sha256": "8e5dc30e6951d550c3cb38c5dc4a120e893aea280a92b4277c0bb985ddfb3809",
+      "exported_sha256": "8e5dc30e6951d550c3cb38c5dc4a120e893aea280a92b4277c0bb985ddfb3809",
+      "local_path_redacted": false
+    },
+    {
+      "path": "case.json",
+      "original_sha256": "591b903e39138203f783e0079a30c31e4d8587f19fa3aafc5d6b6c9c4145d1e6",
+      "exported_sha256": "591b903e39138203f783e0079a30c31e4d8587f19fa3aafc5d6b6c9c4145d1e6",
+      "local_path_redacted": false
+    },
+    {
+      "path": "commands.json",
+      "original_sha256": "1d89961db47040a676d3b1ed78044ef90f64b782a946cf06253cceeb881681b7",
+      "exported_sha256": "1d89961db47040a676d3b1ed78044ef90f64b782a946cf06253cceeb881681b7",
+      "local_path_redacted": false
+    },
+    {
+      "path": "FIRST-ANSWER.json",
+      "original_sha256": "dc68edeb7028298ba083e4a369718a0bbd50c582220d40ceae32d645f93cb17b",
+      "exported_sha256": "dc68edeb7028298ba083e4a369718a0bbd50c582220d40ceae32d645f93cb17b",
+      "local_path_redacted": false
+    },
+    {
+      "path": "raw-response.md",
+      "original_sha256": "5efdc0d654a40f1a0411479620039f37c27313ff1e5c83604b11fc8333e5cce7",
+      "exported_sha256": "5efdc0d654a40f1a0411479620039f37c27313ff1e5c83604b11fc8333e5cce7",
+      "local_path_redacted": false
+    },
+    {
+      "path": "tool-availability.md",
+      "original_sha256": "d2a11e24e02ffc47e7ebc6a72040d380500539cabbaf0354f79404ca36355da1",
+      "exported_sha256": "d2a11e24e02ffc47e7ebc6a72040d380500539cabbaf0354f79404ca36355da1",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review/audit.json",
+      "original_sha256": "f7309dd71cad27f9d0c8ebf1d1af3f8b1f38cb34d152848682333fa3deb2c092",
+      "exported_sha256": "f7309dd71cad27f9d0c8ebf1d1af3f8b1f38cb34d152848682333fa3deb2c092",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review/audit.md",
+      "original_sha256": "1f577f58ea30b1ebbe10e59c9e3ee950b1b9326fa96c365f57d3ec54c35dd6d4",
+      "exported_sha256": "1f577f58ea30b1ebbe10e59c9e3ee950b1b9326fa96c365f57d3ec54c35dd6d4",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review/commands.json",
+      "original_sha256": "53486bd06beb9e0bf5ec76ed9cc20ff6ea3e9441a783dd604b1f0134aecd00da",
+      "exported_sha256": "a6827dd5053148bf56787863512fbec501ca97894926a9e5d81d9551259490fa",
+      "local_path_redacted": true
+    }
+  ]
+}

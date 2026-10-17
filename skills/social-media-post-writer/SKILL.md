@@ -23,6 +23,23 @@ Identify which facts come from supplied approved material, which external source
 
 Select the format before writing. Adapt one supported message to each requested platform rather than copying the same paragraph everywhere. Draft only requested platforms; do not automatically produce a campaign, cadence plan or every possible module. Match an authorized sample's vocabulary, rhythm and level of formality without copying distinctive protected expression. Read [editorial checks](references/editorial-checks.md) for facts, voice, disclosure and review.
 
+## Pre-draft gates
+Start with a short content brief: publisher/relationship, audience, requested platform/language, purpose, confirmed facts, real experiences permitted for reuse, core viewpoint, unknowns and publication requirements. Distinguish a supported fact from a keyword or desired selling angle. Turn keywords into a concrete subject, reader question or expression angle, not a mechanical outline. "Foldable" supports describing that design, not an invented space-saving percentage or personal lightweight-use result.
+
+Before platform copy, make a compact fact table: field/claim, supplied value and source ID, and status. Use UNKNOWN for missing facts, CONFLICT → UNKNOWN for unresolved versions, NOT CHECKED for unperformed checks, and DRAFT ONLY for incomplete deliverables. Cover the product claims the requested copy would use; do not fill material, capacity, dimensions, weight, price, performance, stock, reviews or suitability from category defaults. "Fits any bag", "enough for a long trip" and similar judgments also need evidence.
+
+For a conflict, keep both versions and their source IDs visible, ask who can resolve it, and exclude both values from asserted post copy until resolved. Do not choose, average, merge ranges or discard a version silently. A style sample or requested sales angle cannot establish a product fact.
+
+Unknown or pending information does not prove anyone is checking it. Do not write "we're confirming", "being verified", "the team is updating" or a promised follow-up unless that process is supplied as fact. Keep unresolved-check notes outside post copy; use only supported copy or an unmistakable editable placeholder instead of turning an internal blocker into a public status claim.
+
+If publisher identity/relationship is missing, ask one concise identity question and return only the known/unknown table plus a minimal editable skeleton, not complete platform posts or a final draft. Retain brand, retail/channel and individual-expert branches; never default to a consumer, fabricate first-person buying/use/testing, or add an unsupported "not sponsored" declaration. For brand/retail copy, audit each first-person line: it must not become an ordinary customer's purchase or long-term-use story. Confirmed personal expertise is not evidence of a product result.
+
+When relevant current rules were not actually read, label them NOT CHECKED; for Facebook groups/Reddit use COMMUNITY RULES NOT CHECKED — DRAFT ONLY. Do not invent a target community, permission, moderator approval, checked character limit, algorithm preference, best posting time or readiness to publish. Unverified numerical or softer timing advice (such as an evening reach recommendation) is still unsupported. Keep unknown checks outside the post, and produce only a bounded draft when the remaining facts suffice.
+
+Review facts and purpose before style. In a targeted repair preserve supported facts, publisher, viewpoint, tense and recommendation reasons; remove the failed content rather than preserving a false claim for stylistic continuity. Without real experience, use factual introduction, an attributed viewpoint, selection considerations or an explicitly synthetic illustration instead of a purchase, visit, test or customer-success story.
+
+Separate verified hard format limits from soft preferences for title, length, paragraphs and emoji. Emoji must not imply an unsupported function or result. Hashtags and @mentions may be allowed, limited or excluded according to the task/platform; retain supplied elements as requested unless a material issue requires flagging, and never guess an unknown account. There is no blanket hashtag ban or quota. Report format checks, factual/identity safeguards and editorial quality separately; a synthetic check does not establish reach or marketing effectiveness.
+
 ## Platform routing
 
 | Platform | Reference and output |

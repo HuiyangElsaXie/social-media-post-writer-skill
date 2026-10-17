@@ -1,0 +1,45 @@
+{
+  "record_type": "retrospective reconstruction of actual tool events, including this executing write command",
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python UTF-8 reads",
+      "paths": [
+        "skills/social-media-post-writer/SKILL.md",
+        "brief.md",
+        "case.json"
+      ],
+      "outcome": "success; JSON escaped contents returned; exit 0"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python UTF-8 reads",
+      "paths": [
+        "skills/social-media-post-writer/references/editorial-checks.md",
+        "skills/social-media-post-writer/references/platforms-en.md",
+        "skills/social-media-post-writer/references/platforms-zh.md"
+      ],
+      "scope": "editorial-checks whole file; Instagram section and Xiaohongshu section returned from platform files",
+      "outcome": "success; exit 0"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python writes and SHA256 reads",
+      "read_paths": [
+        "skills/social-media-post-writer/SKILL.md",
+        "skills/social-media-post-writer/references/editorial-checks.md",
+        "skills/social-media-post-writer/references/platforms-en.md",
+        "skills/social-media-post-writer/references/platforms-zh.md"
+      ],
+      "write_paths": [
+        "raw-response.md",
+        "commands.json",
+        "tool-availability.md"
+      ],
+      "outcome": "raw-response.md written first; hashes computed; audit files written by this command"
+    }
+  ]
+}

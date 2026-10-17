@@ -1,0 +1,15 @@
+{
+  "repo": "social-media-post-writer-skill",
+  "scenario": "identity-missing",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "ddf1dc766e983e34e113217157d37d56831a761b",
+  "skill_entry": "skills/social-media-post-writer/SKILL.md",
+  "loaded_rule_sha256": {
+    "skills/social-media-post-writer/SKILL.md": "5a69cc30a61968478003a5f8ccf11c8a20aac933e078fc224ac24fb467237abe",
+    "skills/social-media-post-writer/references/editorial-checks.md": "5a77d1a60bdf82311bf981c17d6f44c1c5e1e70c2c1730587951d1e920eacbe1",
+    "skills/social-media-post-writer/references/platforms-en.md": "07e0c91c3e3c120f33e7e7e84469c75a9ab2a7b927a70f4ded1a55dda0ed8e7f",
+    "skills/social-media-post-writer/references/platforms-zh.md": "63d905cfb7bb010d78b885f41f72550212f2bc67000661df74aa71102b6f1ae2"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

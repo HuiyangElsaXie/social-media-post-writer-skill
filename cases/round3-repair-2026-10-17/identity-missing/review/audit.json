@@ -1,0 +1,48 @@
+{
+  "reviewer": "r3_review_social",
+  "model": "gpt-6.1-sol",
+  "scenario": "identity-missing",
+  "scope": "THIS CASE ONLY; frozen FIRST answer; independent reviewer did not execute case",
+  "overall": "PASS",
+  "format": "PASS",
+  "factual_identity": "PASS",
+  "editorial": "PASS",
+  "input_sha256": {
+    "brief.md": "0c337fb9cbe15c6f655fdda8f69df576d3c2971ac9dd50bcd8bf491dea1c1b2e",
+    "case.json": "c06f129bc43f7c85590bd0633f3dfe0c709241bd1d131547ecb702ae8dd69def",
+    "FIRST-ANSWER.json": "0eb89ea2565a1a5b90479d50f85fbe3ec60b287c6f0ab62a5286ac697c62022a",
+    "commands.json": "190e8632c56d68c7a556485cb5e438a05620e60ac4caa93d983ca349fd51caa6",
+    "tool-availability.md": "82e83cd3876ad3509ceb8f148ea5cc1768004213fbdc9b8ccf10219886c6c0f9"
+  },
+  "raw_sha256": "fe83de3736523d78de697688a85516451e86bea144a12690c283ebf1f6dfded5",
+  "first_answer_hash_matches": true,
+  "rule_sha256": {
+    "SKILL.md": "5a69cc30a61968478003a5f8ccf11c8a20aac933e078fc224ac24fb467237abe",
+    "references/editorial-checks.md": "5a77d1a60bdf82311bf981c17d6f44c1c5e1e70c2c1730587951d1e920eacbe1",
+    "references/platforms-en.md": "07e0c91c3e3c120f33e7e7e84469c75a9ab2a7b927a70f4ded1a55dda0ed8e7f",
+    "references/platforms-zh.md": "63d905cfb7bb010d78b885f41f72550212f2bc67000661df74aa71102b6f1ae2"
+  },
+  "findings": [
+    {
+      "severity": "supported",
+      "source": "SKILL.md identity gate; raw-response.md opening and skeletons",
+      "finding": "One concise publisher/relationship question retains brand, seller and expert branches. Only a known/unknown table and short editable skeletons follow. No final posts, consumer persona, credentials, use, sponsorship status, compactness or fit claim are invented."
+    },
+    {
+      "severity": "supported",
+      "source": "brief.md single product line P1; raw-response.md skeletons",
+      "finding": "English Instagram/X and Simplified Chinese Xiaohongshu skeletons use only a mat rolling up for carrying. Product name, publisher, link and topics stay placeholders. Unknown assets/accounts and NOT CHECKED rules are visible; no media completion or permission is implied."
+    },
+    {
+      "severity": "minor",
+      "source": "SKILL.md separate review dimensions; raw-response.md",
+      "finding": "No separate three-dimension review report is included. Because the identity gate specifically restricts delivery to the question, table and minimal skeleton, adding a review report would compete with that restriction; this is not scored as a material defect."
+    }
+  ],
+  "limits": [
+    "Local supplied fictional evidence only; no external fact, platform limit, legal, reach or business-effect validation.",
+    "Case execution history is represented by supplied commands/tool-availability records, not an independently observed executor trace.",
+    "No prior reports, expected answers, parent scripts, private files or other reviews read. No case or repository file edited.",
+    "Read all authorized case files and references; initial output truncation was corrected by targeted rereads."
+  ]
+}

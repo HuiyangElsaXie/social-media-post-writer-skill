@@ -14,7 +14,7 @@ A retailer may describe the product they carry, but cannot invent having manufac
 
 ## TikTok
 
-Deliver a producible short-video plan, not just a caption. Use a compact table of **beat/approximate timing, shot/action, spoken line, on-screen text/subtitle, and asset required**, followed by a caption. Timing is an editorial estimate and can be revised to the user's production constraints; do not call it an algorithm optimum.
+Deliver a producible short-video plan, not just a caption. Use a compact table of **beat/approximate timing, shot/action, spoken line, on-screen text/subtitle, and asset required**, followed by a caption. Timing means estimated duration of a script beat for production, not a clock time or posting window. It can be revised to the user's production constraints; do not call it an algorithm optimum or best posting time.
 
 Open with the concrete subject or question; choose demo, explanation or story only when the assets/evidence support it. Keep product claims identical across voiceover, subtitles and caption. A retailer's demo must not turn into a fake consumer reaction or invented long-term use. Mark stock/illustrative/generative assets as such. Do not assume music/trend rights, invent a trending sound or promise finished clips when only writing was requested.
 

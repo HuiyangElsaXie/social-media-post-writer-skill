@@ -1,0 +1,30 @@
+{
+  "record_type": "Retrospective reconstruction of actual reviewer tool calls, including this final write command; not a contemporaneous shell transcript",
+  "reviewer": "r3_review_social",
+  "events": [
+    {
+      "call": 1,
+      "tool": "functions.exec -> exec_command",
+      "command": "Get-Content -LiteralPath <repo>/skills/social-media-post-writer/SKILL.md",
+      "result": "exit 0; PowerShell rendering damaged Unicode; reread in call 3 using specified Python"
+    },
+    {
+      "call": 2,
+      "tool": "functions.exec -> exec_command",
+      "command": "PowerShell here-string piped to {PYTHON} -X utf8 -; pathlib reads six authorized files per case and three references; json.dumps ensure_ascii=True",
+      "result": "exit 0; output truncated in retail case; relevant references visible"
+    },
+    {
+      "call": 3,
+      "tool": "functions.exec -> exec_command",
+      "command": "Same specified Python -X utf8; JSON-escaped reread retail case.json/raw-response.md/FIRST-ANSWER.json/commands.json and SKILL.md",
+      "result": "exit 0; complete returned"
+    },
+    {
+      "call": 4,
+      "tool": "functions.exec -> exec_command",
+      "command": "Same specified Python -X utf8; read/hash authorized input/raw/rule files; write audit.md, audit.json, commands.json only under reviews-social/<scenario>/",
+      "result": "current executing write; successful completion established by exit 0"
+    }
+  ]
+}
